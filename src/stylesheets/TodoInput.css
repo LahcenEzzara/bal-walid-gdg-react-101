@@ -1,0 +1,27 @@
+.input-div {
+  display: flex;
+  gap: 8px;
+  padding: 0 30px;
+  justify-content: center;
+}
+
+.input-div input, .input-div button {
+  border-radius: 4px;
+}
+
+.input-div input {
+  border: 2px solid silver;
+  padding: 4px;
+}
+
+.input-div button {
+  border: none;
+  padding: 4px 12px;
+  background-color: rgb(143, 143, 255);
+  color: white;
+  cursor: pointer;
+}
+
+.input-div button:hover {
+  background-color: rgb(115, 115, 250);
+}
