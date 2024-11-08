@@ -2,12 +2,14 @@
 
 ul {
   padding: 0 30px;
+  overflow-y: auto;
 }
 
 li {
   display: flex;
   gap: 3px;
   align-items: center;
+  margin-bottom: 2px;
 }
 
 li input[type="checkbox"] {
@@ -50,4 +52,24 @@ li:nth-child(4n+3) input:checked {
 li:nth-child(4n+0) input:checked {
   background-color: var(--color-3);
   border-color: var(--color-3);
+}
+
+/* WebKit browsers (Chrome, Safari) */
+ul::-webkit-scrollbar {
+  width: 4px; /* Thin scrollbar width */
+}
+
+ul::-webkit-scrollbar-track {
+  background: transparent; /* Hides the track */
+}
+
+ul::-webkit-scrollbar-thumb {
+  background-color: gray; /* Gray color for the scrollbar thumb */
+  border-radius: 10px; /* Rounded scrollbar thumb */
+}
+
+/* Firefox */
+ul {
+  scrollbar-width: thin; /* Thin scrollbar width */
+  scrollbar-color: gray transparent; /* Gray thumb, no track color */
 }

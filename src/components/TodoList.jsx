@@ -1,4 +1,4 @@
-
+import "../stylesheets/TodoList.css"
 
 const TodoList = ({ todos, setTodos }) => {
   const toggleTodo = (id) => {
