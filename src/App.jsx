@@ -5,11 +5,10 @@ import TodoInput from "./components/TodoInput";
 import TodoList from "./components/TodoList";
 import TodoHeader from "./components/TodoHeader";
 function App() {
-  const [count, setCount] = useState(0);
   const defaultTodos = [
-    { task: "h", done: false, id: 0 },
-    { task: "b", done: true, id: 1 },
-    { task: "c", done: true, id: 2 },
+    { task: "Tyb lftor", done: true, id: 0 },
+    { task: "Walk to school", done: true, id: 1 },
+    { task: "Finish react workshop", done: false, id: 2 },
   ];
   const [todos, setTodos] = useState(defaultTodos);
   return (
