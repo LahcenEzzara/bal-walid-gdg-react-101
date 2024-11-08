@@ -1,4 +1,5 @@
-## Install Node.js
+# Pre-workshop setup:
+## 1. Install Node.js
 
 1. Install Node.js by clicking the download button on the [official Node website](https://nodejs.org/)
 2. Run .msi installer and follow steps, make sure to check "Add to PATH"
@@ -13,7 +14,7 @@
      ```bash
      npm -v
      ```
-## Setup a local clone of this repo
+## 2. Setup a local clone of this repo
 To code along during the workshop, you'll want to do the following:
 
 1. Clone this repo:
